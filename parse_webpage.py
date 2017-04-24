@@ -1,6 +1,8 @@
-import beautifulsoup
+from bs4 import beautifulsoup
+import requests
 
 # http://www.scimagojr.com/journalrank.php
+page = requests.get()
 
 ### User Input
 
@@ -14,4 +16,3 @@ import beautifulsoup
 
 # Math calculations
 # see whether it's close? Within 0.5 pt?
-   
